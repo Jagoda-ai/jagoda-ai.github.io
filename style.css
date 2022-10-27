@@ -1,15 +1,18 @@
+:root {
+  --navAccent: rgba(0, 0, 0, 0.77);
+}
+
 body {
-  background-color: rgb(193, 233, 193);
+  background-color: rgba(129, 72, 198, 0.8);
   font-family: "Quicksand", sans-serif;
   margin: 0;
 }
 
 nav {
-  background-color: rgb(197, 133, 133);
+  background-color: var(--navAccent);
   display: flex;
   justify-content: space-between;
-  margin: 0 5px
-  padding:5px;
+  padding: 5px 10px;
 }
 
 h1 {
@@ -25,47 +28,87 @@ ul {
 }
 
 li {
-  padding: 0 5px;
+  padding: 0 0 0 10px;
 }
 
 a {
-  color: rgb(202, 179, 183);
+  color: #fff;
   text-decoration: none;
 }
-header{
-  border:5px solid red;
+
+body > header {
   display: flex;
-  flex-wrap:wrap;
-  justyfy-content: center;
+  flex-wrap: wrap;
+  justify-content: center;
   padding: 10px;
 }
 
-img{
-  max-width:70%;
-  border-radius: 47.5%;
+img {
+  max-width: 70%;
+  border-radius: 50%;
   box-shadow: #000 0px 20px 40px -5px;
 }
 
-h2{
+h2 {
   margin-bottom: 0;
 }
 
-p{
-  margin-top: 4rem;
-  line-height: 1.5rem;
+p {
+  margin-top: 0.4rem;
+  line-height: 1.6rem;
 }
 
-@media (miin-width: 768px){
-  header{
+section {
+  padding: 10px;
+}
+
+section div {
+  display: flex;
+  justify-content: center;
+}
+
+section div a {
+  margin: 1rem;
+  font-size: 3rem;
+}
+
+footer {
+  background-color: var(--navAccent);
+  color: #fff;
+  padding: 1rem;
+}
+
+footer p {
+  margin: 0rem;
+  text-align: right;
+}
+
+@media (min-width: 768px) {
+  header {
     flex-wrap: nowrap;
     align-items: center;
   }
-  img{
-    max-width:50%;
-    margin-right: 3rem;
-  }
-  header div{
-    border: 10px solid brown;
+
+  img {
     max-width: 40%;
+    margin: 3rem;
+  }
+
+  header div {
+    max-width: 40%;
+  }
+
+  section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  section > * {
+    max-width: 60%;
+  }
+
+  section div {
+    margin: 3rem;
   }
 }
