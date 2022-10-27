@@ -54,3 +54,18 @@ p{
   margin-top: 4rem;
   line-height: 1.5rem;
 }
+
+@media (miin-width: 768px){
+  header{
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+  img{
+    max-width:50%;
+    margin-right: 3rem;
+  }
+  header div{
+    border: 10px solid brown;
+    max-width: 40%;
+  }
+}
