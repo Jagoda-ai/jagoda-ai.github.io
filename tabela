@@ -1,17 +1,17 @@
 <table>
   <tr>
-    <th>Company</th>
-    <th>Contact</th>
-    <th>Country</th>
+    <th>Imię</th>
+    <th>Miasto</th>
+    <th>Wiek</th>
   </tr>
   <tr>
-    <td>Alfreds Futterkiste</td>
-    <td>Maria Anders</td>
-    <td>Germany</td>
+    <td>Jagoda Amiławska</td>
+    <td>Warszawa</td>
+    <td>43</td>
   </tr>
   <tr>
-    <td>Centro comercial Moctezuma</td>
-    <td>Francisco Chang</td>
-    <td>Mexico</td>
+    <td>Jan Kowalski</td>
+    <td>Wrocława</td>
+    <td>53</td>
   </tr>
 </table>
